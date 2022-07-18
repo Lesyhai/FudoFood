@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu li {
+    display: inline-block;
+    padding: 0 32px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.button-menu button a{
+    text-decoration: none;
+}
+.button-menu {
+    display: flex;
+    align-items: center;
+}
+.button-menu button{
+    width: 80px;
+    height: 45px;
+    border-radius: 5px;
+
+}
+a{
+    text-decoration: none;
+    color: #F54748;
+}
+.button-menu #SignIn:hover{
+    background-color: #F54748;
+    color: white;
+}
+.button-menu #SignUp:hover{
+    background-color: #F54748;
+    color: white;
+}
+#SignIn {
+    border: 1px solid #F54748;
+    background-color: white;
+    color: #F54748;
+    margin: 0 20px;
+}
+#SignUp {
+    border: 1px solid #F54748;
+    background-color: white;
+    color: #F54748;
+}
+.Big-and-Juicy {
+    column-gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    align-items: center;
+}
+.title-big  h2{
+    color: #F54748;
+    font-size: 38px;
+    margin: 20px 0;
+}
+.title-big p{
+ width: 580px;
+    margin-bottom: 32px;
+}
+.title-big input{
+    width: 180px;
+    height: 42px;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.title-big button{
+    width: 107px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+}
+.title-related{
+    margin: 70px 0 30px;
+    font-size: 24px;
+}
+.food-related {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+.food-related-p .img img {
+    border-radius: 15px;
+}
+.food-related-p .title h3{
+    font-size: 18px;
+    margin: 20px 0 15px;
+}
+.food-related-p .title p{
+    font-size: 20px;
+    color: #F54748;
+}
+.food-related-p .button button{
+    width: 400px;
+    height: 42px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    margin: 20px 0 96px;
+}
+hr{
+    margin-top: 96px;
+}
+.menu1{
+    display:  none;
+}
+.footer {
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-footer li {
+    display: inline-block;
+    padding: 0 32px;
+}
+.menu-footer li a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Inter', sans-serif;
+    }
+    .container{
+        width: 100%;
+        margin:  0 auto;
+       
+    }
+    .header{
+        display: flex;  
+        justify-content: space-between;
+        align-items: center;
+        padding: 3%;
+    }
+    .menu1{
+        display: block;
+        text-align: center;
+    }.menu1 li{
+        padding: 10px;
+        display: inline;
+    }
+    .menu{
+        display: none;
+    }
+    .banner{
+        display: inline;
+        
+    }
+    .title-big{
+        padding-left: 40px;
+    }
+    .title-big h1{
+        font-size: 45px;
+    }
+    .title-big p{
+        width: 670px;
+        text-align: justify;
+        font-size: 22px;
+    }
+    .img-big img {
+        width: 720px;
+        padding-left: 40px;
+    }
+    .food-related {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 40px;
+        margin-left: 10px;
+    }
+    .title-related{
+        margin: 70px 0 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .food-related-p .img img {
+        border-radius: 15px;
+        width: 350px;
+        padding: 0 5px;
+    }
+    .food-related-p .title h3{
+        font-size: 18px;
+        margin: 20px 0 15px;
+        height: 30px;
+    }
+    .food-related-p .title p{
+        font-size: 20px;
+        color: #F54748;
+        width: 350px;
+    }
+    .food-related-p .button button{
+        width: 350px;
+        height: 42px;
+        border-radius: 6px;
+        background-color: black;
+        color: white;
+        margin: 20px 0 96px;
+    }
+    .Big-and-Juicy{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 40px;
+    }
+}
+@media (max-width:416px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Inter', sans-serif;
+    }
+    .container{
+        width: 100%;
+        margin:  0 auto;
+       
+    }
+    .header{
+        display: flex;  
+        justify-content: space-between;
+        align-items: center;
+        padding: 3%;
+    }
+    .menu1{
+        display: block;
+        text-align: center;
+    }.menu1 li{
+        padding: 10px;
+    }
+    .menu1 a{
+        font-size: 13px;
+    }
+    .menu{
+        display: none;
+    }
+    .banner{
+        display: inline;
+        
+    }
+    .title-big{
+        padding-left: 30px;
+    }
+    .title-big h1{
+        font-size: 25px;
+    }
+    .title-big p{
+        width: 340px;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .img-big img {
+        width: 390px;
+        padding-left: 20px;
+    }
+    .food-related {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 40px;
+        margin-left: 10px;
+    }
+    .title-related{
+        margin: 70px 0 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .food-related-p .img img {
+        border-radius: 15px;
+        width: 370px;
+        padding: 0 5px;
+    }
+    .food-related-p .title h3{
+        font-size: 18px;
+        margin: 20px 0 15px;
+        width: 350px;
+    }
+    .food-related-p .title p{
+        font-size: 20px;
+        color: #F54748;
+        width: 350px;
+    }
+    .food-related-p .button button{
+        width: 370px;
+        height: 42px;
+        border-radius: 6px;
+        background-color: black;
+        color: white;
+        margin: 20px 0 96px;
+    }
+    .Big-and-Juicy{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 40px;
+    }
+    .menu-footer li {
+        display: inline-block;
+        padding: 0 4px;
+    }
+    .menu-footer li a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+}

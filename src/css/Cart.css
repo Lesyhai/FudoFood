@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu li {
+    display: inline-block;
+    padding: 0 32px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.button-menu button a{
+    text-decoration: none;
+}
+.button-menu {
+    display: flex;
+    align-items: center;
+}
+.button-menu button{
+    width: 80px;
+    height: 45px;
+    border-radius: 5px;
+
+}
+a{
+    text-decoration: none;
+    color: #F54748;
+}
+.button-menu #SignIn:hover{
+    background-color: #F54748;
+    color: white;
+}
+.button-menu #SignUp:hover{
+    background-color: #F54748;
+    color: white;
+}
+#SignIn {
+    border: 1px solid #F54748;
+    background-color: white;
+    color: #F54748;
+    margin: 0 20px;
+}
+#SignUp {
+    border: 1px solid #F54748;
+    background-color: white;
+    color: #F54748;
+}
+.main-content .content-banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    align-items: center;
+    margin-top: 80px;
+}
+#Quality  {
+    color: #F54748;
+    background-color: #FFEEEE;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+ .ab{
+    font-size: 72px;
+    font-weight: bolder;
+}
+.ac {
+    font-size: 18px;
+    margin: 32px 0;
+}
+.ab span {
+    color: #F54748
+}
+.popular-product input  {
+    width: 306px;
+    height: 62px;
+    border: 1px solid #F54748;
+    padding-left: 20px;
+    border-radius: 8px 0  0 8px;
+}
+
+#dcv {
+    margin-left: -10px;
+    width: 153px;
+    height: 62px;
+    border: 1px solid #F54748;
+    background-color: #F54748;
+    color: white;
+    border-radius:0 8px 8px 0 ;
+}
+.main-content H1{
+    margin-top: 70px;
+}
+.theshop{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.giohang th,td{
+    padding: 10px;
+  
+}
+.giohang input{
+    width: 80px;
+    border-radius: 5px;
+}
+.giohang img{
+    border-radius: 8px;
+}
+.tittle-form{
+    color: orangered;
+   
+}
+.tittle-form:hover{
+  color: red;
+  font-weight: 700;
+  transition: 0.5s;
+  
+}
+.price{
+    color: red;
+    font-weight: 600;
+}
+.menusub h2{
+    background-color: #F54748;
+    color: #FFEEEE;
+    padding: 10px;
+    border-radius: 8px;
+}
+.menusub li{
+    padding: 15px;
+    margin-top: 0px;
+    width: 100%;
+    border: none;
+   border-bottom: 1px gray solid;
+   list-style: none;
+}
+.menusub li:hover{
+    background-color: #f547474b;
+    font-weight:550;
+    transition: 0.3s;
+}
+
+hr{
+    margin-top: 96px;
+}
+.footer {
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-between;
+}

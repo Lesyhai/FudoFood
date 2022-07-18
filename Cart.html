@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/Cart.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/inidex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="header">
+            <div class="logo">
+              <img src="src/image/index/logo.png" alt="" />
+            </div>
+            <div class="menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="Blog.html">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="button-menu">
+              <a href="Cart.html"><img src="src/image/index/Cart.png" alt="" /></a>
+              <a href="SignIn.html" ><button id="SignIn">Sign In</button></a>
+              <a href="SignUp.html" ><button id="SignUp">Sign Up</button></a>
+            </div>
+          </div>
+          <div class="menu1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="Blog.html">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+          </div>
+        <div class="main-content">
+          <H1 style="text-align:center ;">YOUR CART INFORMATION</H1><br>
+          <div class="i" style="text-align: center;">
+              <i>( Good to the last drop !               </i> <br> <br> 
+              <i style="color: orangered; font-size: 25px;">* * * * *</i>
+          </div> <br> <br> 
+          <hr> <br> <br> 
+          <div class="theshop">
+
+              <div class="giohang">
+                  <form action="">
+                      <table border="1">
+                          <tr>
+                              <th>STT</th>
+                              <th>SẢN PHẨM</th>
+
+                              <th>TÊN SẢN PHẨM</th>
+
+                              <th> ĐƠN GIÁ</th>
+                              <th>SỐ LƯỢNG</th>
+                              <th>TẠM TÍNH</th>
+
+                          </tr>
+                          <tr>
+                              <td>1</td>
+                              <td><img src="src/image/cart/image 26.png" width="120px" alt=""></td>
+                              <td class="tittle-form">Big and Juicy Wagyu Beef </td>
+                              <td class="price"> 30</td>
+                              <td><input type="number" value="0" min="0" onchange="tinhtien(this)"></td>
+                              <td class="thanhtien"></td>
+                          </tr>
+                          <tr>
+                              <td>2</td>
+                              <td><img src="src/image/cart/image 30.png" width="120px" alt=""></td>
+                              <td class="tittle-form">The Creamiest Creamy Chicken</td>
+                              <td class="price">30</td>
+                              <td><input type="number" value="0" min="0" onchange="tinhtien(this)"></td>
+                              <td class="thanhtien"></td>
+                          </tr>
+                          <tr>
+                              <td>3</td>
+                              <td><img src="src/image/cart/image 31.png" width="120px" alt=""></td>
+                              <td class="tittle-form">Fruity Pancake with Orange & Blueberry</td>
+                              <td class="price">30</td>
+                              <td><input type="number" value="0" min="0" onchange="tinhtien(this)"></td>
+                              <td class="thanhtien"></td>
+                          </tr>
+                          <tr>
+                              <td>4</td>
+                              <td><img src="src/image/cart/image 29.png" width="120px" alt=""></td>
+                              <td class="tittle-form">Fresh and Healthy Mixed Mayonnaise</td>
+                              <td class="price">30</td>
+                              <td><input type="number" value="0" min="0" onchange="tinhtien(this)"></td>
+                              <td class="thanhtien"></td>
+                          </tr>
+                          <tr>
+                              <td>5</td>
+                              <td><img src="src/image/cart/image 27.png" width="120px" alt=""></td>
+                              <td class="tittle-form">Fresh Lime Roasted Salmon</td>
+                              <td class="price">30</td>
+                              <td><input type="number" value="0" min="0" onchange="tinhtien(this)"></td>
+                              <td class="thanhtien"></td>
+                          </tr>
+                          <tr>
+                              <td>6</td>
+                              <td><img src="src/image/cart/image 28.png" width="120px" alt=""></td>
+                              <td class="tittle-form">The Best Easy One Pot Chicken and Rice</td>
+                              <td class="price">30</td>
+                              <td><input type="number" value="0" min="0" onchange="tinhtien(this)"></td>
+                              <td class="thanhtien"></td>
+                          </tr>
+                          <tr>
+                              <th colspan="5" class="price">Tổng tiền</th>
+                              <td id="tongtien">0</td>
+                          </tr>
+                      </table>
+                  </form>
+              </div>
+              <div class="menusub">
+                  <h2>BREAKFAST</h2>
+                  <ul>
+                      <li><a href="#">Fresh and Healthy Mixed Mayonnaise Salad</a></li>
+                      <li><a href="#">The Creamiest Creamy Chicken</a></li>
+                      <li><a href="">The Creamiest Creamy Chicken</a></li>
+                      <li><a href="">Big and Juicy Wagyu Beef Cheeseburger</a></li>
+                  </ul>
+                  <h2>VEGAN</h2>
+                      <ul>
+                          <li><a href="">The Best Easy One Pot Chicken and Rice</a></li>
+                          <li><a href="">Fruity Pancake with Orange & Blueberry</a></li>
+                      </ul>
+                  <h2>MEAT</h2>
+                  <ul>
+                      <li><a href="#">Fresh and Healthy Mixed Mayonnaise Salad</a></li>
+                      <li><a href="#">The Creamiest Creamy Chicken</a></li>
+                      <li><a href="">The Creamiest Creamy Chicken</a></li>
+                      <li><a href="">Big and Juicy Wagyu Beef Cheeseburger</a></li>
+                  </ul>
+                 
+                  
+              </div>
+          </div>
+<hr>
+            <div class="footer">
+                <div class="logo-footer">
+                  <img src="src/image/index/logo.png" alt="" />
+                </div>
+                <div class="menu">
+                  <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+    </div>
+    <script src="src/js/cart.js"></script>
+
+</body>
+</html>

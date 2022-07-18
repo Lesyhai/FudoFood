@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="src/css/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+         <a href="index.html"><img src="src/image/index/logo.png" alt="" /></a> 
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="Blog.html">About Us</a></li>
+            <li><a href="Signup.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="button-menu">
+          <a href="Cart.html"><img src="src/image/index/Cart.png" alt="" /></a>
+          <a href="SignIn.html" ><button id="SignIn">Sign In</button></a>
+          <a href="SignUp.html" ><button id="SignUp">Sign Up</button></a>
+        </div>
+      </div>
+      <div class="menu1">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="Blog.html">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </div>
+      <div class="main-content">
+        <div class="content-banner">
+          <div class="popular-product">
+            <button id="Quality">Quality Food</button>
+            <p class="ab">
+              Fastest <br />
+              <span>Delivery</span> & <br />
+              Easy <span>Pickup</span>
+            </p>
+            <p class="ac">
+              Best cooks and best delivery guys all at your service. Hot tasty
+              food will reach you in 60 minutes.
+            </p>
+            <form class="inp-btn">
+              <input id="abc"  type="text"placeholder="Enter your delivery location" required/>
+            <button type="submit" id="dcv">Discover</button>
+            </form>
+          </div>
+          <div class="banner">
+            <img src="src/image/index/Images.png" alt="" />
+          </div>
+        </div>
+        <div class="sp">
+          <div class="title">
+            <h1>Our Popular Dishes</h1>
+            <h4>
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim
+            </h4>
+          </div>
+          <div class="filter">
+            <select name="" id="filter-select">
+                <option value="" hidden>Lọc giá</option>
+                <option value="all">Tất cả</option>
+                <option value="under30">Dưới 30 $</option>
+                <option value="over30">Trên 30 $</option>
+            </select>
+        </div>
+          <div class="food-c">
+
+          <!-- Hiển thị sản phẩm-->
+<a href="./detail.html?id=${item.id}"> <img src="${item.image}" alt="" /></a>
+          </div>
+        </div>
+        <div class="Category">
+          <div class="title-Category">
+            <span>Categories</span>
+            <button>View All Categories</button>
+          </div>
+          <div class="food-Category">
+
+            <!--Hiển thị sản phẩm-->
+
+          </div>
+        </div>
+        <div class="contact">
+          <div class="title-contact">
+            <span>Contact us</span>
+          </div>
+          <form action="#" onsubmit="return validate()">
+            <div class="col">
+                <div class="row">
+                    <label for="">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name...">
+                    <p id="loiname" style="color: red;"></p>
+                </div>
+                <div class="row">
+                    <label for="">Subject</label>
+                    <input type="text" id="subject" placeholder="Enter subject...">
+                    <p id="loisub" style="color: red;"></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <label for="">Email Address</label>
+                    <input type="text" id="email" placeholder="Your email address...">
+                    <p id="loiemail" style="color: red;"></p>
+                </div>
+                <div class="row">
+                    <label for="">Enquiry type</label>
+                    <select name="" id="enquiry">
+                        <option value="">Advertising</option>
+                        <option value="under30">Dưới 30 $</option>
+                        <option value="over30">Trên 30 $</option>
+                    </select>
+                    <p id="loienquiry" style="color: red;"></p>
+                </div>
+            </div>
+            <div>
+                <label for="">Messages</label>
+                <textarea name="" id="row" cols="30" rows="10" placeholder="Enter your messages..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
+      </div>
+      <hr>
+      <div class="footer">
+        <div class="logo-footer">
+          <img src="src/image/index/logo.png" alt="">
+        </div>
+        <div class="menu-footer">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>

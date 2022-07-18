@@ -1,0 +1,475 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 1280px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.menu li {
+  display: inline-block;
+  padding: 0 32px;
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+.menu1{
+  display: none;
+}
+.button-menu button a {
+  text-decoration: none;
+}
+.button-menu {
+  display: flex;
+  align-items: center;
+}
+ul li a:hover {
+  color: #f54748;
+}
+.button-menu button {
+  width: 80px;
+  height: 45px;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: #f54748;
+}
+.button-menu #SignIn:hover {
+  background-color: #f54748;
+  color: white;
+}
+.button-menu #SignUp:hover {
+  background-color: #f54748;
+  color: white;
+}
+#SignIn {
+  border: 1px solid #f54748;
+  background-color: white;
+  color: #f54748;
+  margin: 0 20px;
+}
+#SignUp {
+  border: 1px solid #f54748;
+  background-color: white;
+  color: #f54748;
+}
+.main-content .content-banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  align-items: center;
+  margin-top: 80px;
+}
+#Quality {
+  color: #f54748;
+  background-color: #ffeeee;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 32px;
+}
+.ab {
+  font-size: 72px;
+  font-weight: bolder;
+}
+.ac {
+  font-size: 18px;
+  margin: 32px 0;
+}
+.ab span {
+  color: #f54748;
+}
+.popular-product input {
+  width: 306px;
+  height: 62px;
+  border: 1px solid #f54748;
+  padding-left: 20px;
+  border-radius: 8px 0 0 8px;
+}
+
+#dcv {
+  margin-left: -10px;
+  margin-bottom: 20px;
+  width: 153px;
+  height: 62px;
+  border: 1px solid #f54748;
+  background-color: #f54748;
+  color: white;
+  border-radius: 0 8px 8px 0;
+}
+.sp .title {
+  text-align: center;
+}
+.title h1 {
+  margin: 97px 0 24px;
+}
+.title h4 {
+  width: 900px;
+  margin: 0 auto;
+}
+.filter {
+  margin: 20px 0;
+}
+.filter select {
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+}
+.food-c {
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.food-pt .img img {
+  border-radius: 15px;
+  width: 400px;
+  height: 270px;
+}
+.food-pt .title {
+  margin: 15px 10px 20px;
+  text-align: left;
+  font-size: 18px;
+  color: #f54748;
+}
+.Other {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: -20px;
+  margin-bottom: 100px;
+}
+.Other .time {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+.Other .time img {
+  width: 25px;
+  height: 24px;
+  margin-right: 10px;
+}
+.Other .Option {
+  display: flex;
+  align-items: center;
+}
+.Other .Option img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.title-Category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-Category button {
+  background-color: white;
+  width: 220px;
+  height: 60px;
+  color: #f54748;
+  border: 1px solid #f54748;
+}
+.title-Category span {
+  font-size: 48px;
+}
+.food-Category {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.food-Category p {
+  padding-left: 10px;
+  font-size: 18px;
+}
+.contact .title-contact {
+  font-size: 48px;
+  text-align: center;
+  margin: 96px 0 64px;
+}
+.row p {
+  padding: 5px 7px 0;
+}
+.contact label {
+  font-size: 18px;
+}
+.contact input,
+.contact textarea,
+.contact select {
+  display: block;
+  width: 100%;
+  border: 1px solid #878787;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.contact input,
+.contact select {
+  height: 60px;
+  margin-top: 12px;
+}
+.contact .col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+.contact .row {
+  margin-bottom: 24px;
+}
+textarea {
+  padding: 10px;
+}
+.btn-submit {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 20px 60px;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 32px auto;
+}
+hr {
+  margin-top: 96px;
+}
+.footer {
+  margin: 32px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-footer li {
+  display: inline-block;
+  padding: 0 32px;
+}
+.menu-footer li a{
+  text-decoration: none;
+  color: black;
+}
+
+/* table */
+@media (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    .header {
+        padding: 5%;
+    }
+
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+    .filter{
+      margin-left: 30px;
+    }
+    .title h4{
+      width: 550px;
+      padding-bottom: 60px;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .menu1 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .menu1 li{
+      display: inline;
+    }
+    .menu {
+        display: none;
+    }
+    .popular-product{
+        display: none;
+    }
+
+    .banner {
+        width: 100%;
+        padding: 10%;
+        display: flex;
+    }   
+    
+
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+    .food-pt .title{
+      font-size: 17px;
+    }
+    .food-c {
+      padding-left: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        
+
+        width: 100%;
+
+    }
+    .Other{
+        text-align: center;
+        width: 100%;
+    }
+
+    .food-Category {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       padding: 5%;
+        text-align: center;
+        width: 100%;
+    }
+
+    ul li {
+        padding: 10px;
+    }
+
+    .title-Category {
+      width: 100%;  
+      padding: 20px;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      padding-left: 50px;
+       width: 100%;
+        
+    }
+    .contact input{
+        width: 310px;
+    }
+    .contact select{
+      width: 310px;
+    }
+    .contact textarea{
+      width: 680px;
+    }
+    .food-pt .img img{
+       width: 350px;
+    }
+ 
+}
+
+/* mobile */
+@media (min-width:414px) and (max-width: 415px){
+    * {
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .menu1 {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -60px;   
+    }
+    .menu1 ul li{
+        padding: 5px;
+    }
+    .menu1 ul li a{
+        font-size: 13px;
+    }
+    .menu {
+        display: none;
+    }
+    .popular-product{
+        display: none;
+    }
+    .banner img {
+        width: 400px;
+        padding-right: 90px;
+    }   
+    .food-c {
+      padding-left: 25px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        width: 100%;
+    }
+    .food-Category {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+     padding: 5%;
+      text-align: center;
+      width: 100%;
+     }
+    ul li {
+        padding: 10px;
+    }
+    .cate-view {
+      width: 100%;  
+      padding: 5%;
+    }
+    .cate{
+        font-size: 25px;
+    }
+    .all-cate{
+        font-size: 13px;
+    }
+    .contact .col{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       width: 100%; 
+    }
+    .contact input{
+        width: 100%;   
+    }
+    .contact input{
+      width: 310px;
+  }
+  .contact select{
+    width: 310px;
+  }
+  .contact textarea{
+    width: 90%;
+  }
+  .food-pt .img img{
+     width: 350px;
+  }
+
+  .btn-submit {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 32px  60px ;
+  }
+  .footer {
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-footer li {
+    display: inline-block;
+    padding: 0 5px;
+  }
+  .menu-footer li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+}

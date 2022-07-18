@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="src/css/signin.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"><img src="src/image/index/logo.png" alt="" /></a>
+        </div>
+        <div class="title">
+          <p>Welcome back</p>
+          <h1>Login to your account</h1>
+        </div>
+      </div>
+      <div class="main-content">
+        <form action="#" onsubmit="return validate()">
+            <div class="signin">
+          <div class="title-signin">
+            <label for="">Email</label>
+          </div>
+         <div class="input-signin">
+            <input type="text" id="email" placeholder="John.snow@gmail.com"/>
+           <p id="loiemail" style="color: red;"></p>
+         </div>
+        </div>
+        <div class="signin">
+            <div class="title-signin">
+              <label for="">Password</label>
+            </div>
+           <div class="input-signin">
+              <input type="text" id="pass" placeholder="*********"/>
+              <p id="loipass" style="color: red;"></p>
+           </div>
+           <div class="button-signin">
+               <div class="button-t">
+                <button type="submit">Login now</button>
+               </div>
+              <div class="button-d">
+                <button> <img src="src/image/signin/iconfinder_Google_1298745 1.png" alt=""> Or sign-in with google</button>
+              </div>
+           </div>
+          </div>
+          <div class="Other-signin">
+              <p class="Ohter-one">
+               <a href="">Forgot password?</a> 
+              </p>
+              <p class="Other-two">
+                Dont have an account? <a href="">Join free today</a> 
+              </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="src/js/signin.js"></script>
+  </body>
+</html>
